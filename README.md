@@ -12,8 +12,8 @@ Would use the BiCNN as it was one of the quickest once trained.
 4 results come back for classficaiton 
 5 sends back to user. 
 
-
-
+Embedding file Location:
+https://nlp.stanford.edu/projects/glove/
 
 
 ---> email ---> Deep Phish --> user 
