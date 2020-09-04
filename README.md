@@ -1,4 +1,4 @@
-# Deep-Phishing-Comparing-Deep-Learning-phishing emails
+
 Hons project deep learnring at detecting pgishing emails based form plain text CNN,BLSTM, BiCnn and a LSTM.
 
 Would use the BiCNN as it was one of the quickest once trained. 
@@ -17,3 +17,10 @@ https://nlp.stanford.edu/projects/glove/
 
 
 ---> email ---> Deep Phish --> user 
+
+Trying to make it a full stack kinda project now 
+
+Runs within dokcer container 
+
+
+User ---> "email" -->> Docker container  <----- Phish or non phish 
