@@ -1,5 +1,5 @@
 
-Hons project deep learnring at detecting pgishing emails based form plain text CNN,BLSTM, BiCnn and a LSTM.
+Hons project deep learnring at detecting phishing emails based form plain text CNN,BLSTM, BiCnn and a LSTM.
 
 Would use the BiCNN as it was one of the quickest once trained. 
 
