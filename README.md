@@ -1,26 +1,11 @@
+My Honors project. 
 
-Hons project deep learnring at detecting phishing emails based form plain text CNN,BLSTM, BiCnn and a LSTM.
+Deep learning fo detecting phishing emails using NLP with Keras. Comparing different models for classfication of text. 
 
-Would use the BiCNN as it was one of the quickest once trained. 
+All the models proved to detect phishing emails with varies in accuracy and correct classification. There was no significant drop in accuracy; each model was above 50% accurate. The increase of file embedding proved to have a higher classification rate to the model's accuracy, which was a key finding when conducting tests for this project.The average categorization with a large embedding file was 80% correct categorization.
 
-1:1 grade for dissertation. 
-
-#TODO:
-1 server to get email: this can be done via rust or python c (if needed) 
-2 strips of non UTF-8 characters and special characters - python lib for this 
-3 Passed to web filter
-4 results come back for classficaiton 
-5 sends back to user. 
-
-Embedding file Location:
-https://nlp.stanford.edu/projects/glove/
+                                           ------------- If anyone wants to add to this! -------------
+The study had limitations. An example would be the dataset. This could be improved with more phishing emails and being made into a multi-label classification, so the supervised learning model would learn what type of phishing email it is, such a 419 email or a fraudulent email. With the appended tag of what the phishing email is, this would be a vast improvement showing deep learning can categorize phishing emails and define what subcategory of email they are, a multi-classification method would be useful as it would show the client what types of attack they are being faced with and this could help them improve their web filter security, and look at methods of the email type of how it bypasses their web filters. The use of Bidirectional Encoder Representations from Transformers (BERT) would vastly improve the accuracy of the model also if this were used as a detection-based system, this could be 
+paired with an API feature which could then be a real-world tool used to detect phishing emails. Also testing other embedding techniques such as Word2vec anddifferent types of Glove embedding such as the twitter corpora, and a gender-neutral embedding file to eliminate it having any sexist connotations or gender bias with labelling language.
 
 
----> email ---> Deep Phish --> user 
-
-Trying to make it a full stack kinda project now 
-
-Runs within dokcer container 
-
-
-User ---> "email" -->> Docker container  <----- Phish or non phish 
